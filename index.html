@@ -12,59 +12,62 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarToggleExternalContent"
-      >
-        <ul class="navbar-nav ml-auto align-items-md-center">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Inventory</a></li>
-        </ul>
+      <div class="container d-flex justify-content-end">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarToggleExternalContent"
+        >
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Inventory</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+
     <div class="container">
-      <div class="row profile-card">
-        <div class="col-sm-6 d-flex">
+      <div class="row profile-card align-items-center">
+        <div class="col-md-6 d-flex">
           <img src="user.png" alt="User Image" />
           <div class="profile-info">
             <h4>Rimba Sahara</h4>
             <p>Front End Designer</p>
             <div class="profile-button">
-              <a href="#" class="btn btn-primary">Kontak</a>
+              <a href="#" class="btn btn-primary">Contact</a>
               <a href="#" class="btn btn-outline-success">Resume</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6 garis">
           <table class="table-sm">
             <tr>
               <th>Availability</th>
               <td>Full Time/Part Time</td>
             </tr>
             <tr>
-              <th>Usia</th>
+              <th>Age</th>
               <td>25</td>
             </tr>
             <tr>
-              <th>Lokasi</th>
+              <th>Location</th>
               <td>Cilegon, Banten, Indonesia</td>
             </tr>
             <tr>
-              <th>Pengalaman</th>
+              <th>Experience</th>
               <td>2 Tahun</td>
             </tr>
             <tr>
@@ -79,36 +82,60 @@
     <div class="container form-section">
       <form>
         <div class="form-group">
-          <p><strong>Nama</strong></p>
+          <p><strong>Name</strong></p>
           <input
             type="text"
             class="form-control"
-            placeholder="masukkan nama anda"
+            placeholder="Input your name"
           />
         </div>
         <div class="form-group">
           <p><strong>Role</strong></p>
-          <input type="text" class="form-control" placeholder="" />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input your role"
+          />
         </div>
         <div class="form-group">
           <p><strong>Availability</strong></p>
-          <input type="text" class="form-control" placeholder="" />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input your availability"
+          />
         </div>
         <div class="form-group">
           <p><strong>Age</strong></p>
-          <input type="text" class="form-control" placeholder="" />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input your age"
+          />
         </div>
         <div class="form-group">
-          <p><strong>Lokasi</strong></p>
-          <input type="text" class="form-control" placeholder="" />
+          <p><strong>Location</strong></p>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input your location"
+          />
         </div>
         <div class="form-group">
           <p><strong>Years Experience</strong></p>
-          <input type="text" class="form-control" placeholder="" />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input your year experience"
+          />
         </div>
         <div class="form-group">
           <p><strong>Email</strong></p>
-          <input type="email" class="form-control" placeholder="" />
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Input your email"
+          />
         </div>
         <div class="text-center">
           <button type="submit" class="submit-button">SUBMIT</button>

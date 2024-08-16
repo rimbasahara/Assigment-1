@@ -10,6 +10,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: white;
 }
+
 .profile-card {
   padding: 20px;
   border-radius: 10px;
@@ -22,8 +23,8 @@ body {
   border-radius: 50%;
   margin-right: 20px;
 }
-th {
-  padding: 0 50px;
+.table-sm tr th {
+  padding-right: 100px;
 }
 .profile-info {
   padding: 10px 0;
@@ -33,6 +34,10 @@ th {
 }
 .profile-info p {
   margin: 0;
+}
+.garis {
+  border-left: 2px solid #f8f9fd;
+  height: 155px;
 }
 .contact-buttons a {
   margin-right: 10px;
@@ -58,4 +63,14 @@ th {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+li {
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .table-sm tr th {
+    padding-right: 50px;
+  }
 }
